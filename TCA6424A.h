@@ -115,7 +115,7 @@ public:
         return write_impl();
     }
 
-    bool polarity(const uint16_t value) {
+    bool polarity(const uint32_t value) {
         this->pol.w = value;
         return polarity_impl();
     }
@@ -128,7 +128,7 @@ public:
         return polarity_impl();
     }
 
-    bool direction(const uint16_t value) {
+    bool direction(const uint32_t value) {
         this->dir.w = value;
         return direction_impl();
     }
