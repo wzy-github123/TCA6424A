@@ -1,0 +1,20 @@
+{
+    "name": "TCA6424A",
+    "keywords": "i2c,mux,io expander,tca6424a",
+    "description": "Arduino library for TCA6424A (Remote 24-bit I2C and SMBus I/O Expander with Interrupt Output and Configuration Registers)",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/wzy-github123/TCA6424A.git"
+    },
+    "authors":
+    {
+        "name": "Wenzy",
+        "url": "https://github.com/wzy-github123/TCA6424A",
+        "maintainer": true
+    },
+    "version": "0.1.0",
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
