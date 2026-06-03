@@ -86,9 +86,9 @@ uint32_t read();
 Level::Level read(const Port::Port port);
 bool write(uint32_t value);
 bool write(Port::Port port, Level::Level level);
-bool polarity(uint16_t value);
+bool polarity(uint32_t value);
 bool polarity(Port::Port port, Polarity::Polarity pol);
-bool direction(uint16_t value);
+bool direction(uint32_t value);
 bool direction(Port::Port port, Direction::Direction dir);
 uint8_t i2c_error() const;
 ```
