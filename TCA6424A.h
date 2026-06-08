@@ -180,6 +180,6 @@ private:
 
 }  // namespace TCA6424A
 
-using TCA6424A = TCA6424A::TCA6424A<>;
+using TCA6424 = TCA6424A::TCA6424A<>;
 
 #endif // ARDUINO_TCA6424A_H

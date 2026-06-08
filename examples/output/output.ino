@@ -1,6 +1,6 @@
 #include <TCA6424A.h>
 
-TCA6424A ioex;
+TCA6424 ioex;
 
 #define TCA6424A_SDA  17
 #define TCA6424A_SCL  18
